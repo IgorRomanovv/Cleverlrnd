@@ -1,0 +1,29 @@
+table{
+    border-collapse: collapse;
+    border: 1px black solid;
+    overflow: hidden;
+}
+td{
+    border: 1px black solid;
+}
+th{
+    border: 1px black solid;
+    color: rgb(255, 255, 255);
+    background-color: blueviolet;
+}
+td:hover::after{
+    background-color:rgba(140,140,255,0.4);
+    content: "";
+    position: absolute;
+    height: 2000vh;
+    left: 0;
+    top: -1000vh;
+    width: 100%;
+    z-index: -1;
+}
+tr:hover{
+    background-color:rgba(140,140,255,0.4);
+}
+td,th{
+    position: relative;
+}
