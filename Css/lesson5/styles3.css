@@ -1,0 +1,20 @@
+th,td{
+    border-radius: 5px;
+    width:120px;
+    padding:15px
+}
+tr{
+    background: rgb(153, 255, 204);
+    text-align: center;
+}
+
+thead>tr:first-child{
+    background: linear-gradient(to top,  #8af004,#6ab623 );
+}
+th:first-child{
+    background: linear-gradient( 45deg,  #8af004,#6ab623 );
+}
+thead>tr:nth-child(1) th:nth-child(1){
+    background: rgb(255, 255, 255);
+}
+
