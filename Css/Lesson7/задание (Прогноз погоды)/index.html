@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <style>
+            .weather-box:hover{
+                box-shadow: 0px 0px 10px grey;
+            }
+            .weather-box{
+                width: 120px;
+                margin-right: 5px;
+                display: inline-block;
+            }
+            .data{
+                background: rgb(20, 173, 211);
+                line-height: 150%;
+                color: #fff;
+                text-align: center;
+                font-weight: 700;
+            }
+            .temperature{
+                background: rgb(255, 255, 255);
+                color:black;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="weather-block">
+            <div class="weather-box">
+                <p class="data">31.08</p>
+                <img src="weather-sun.jpg" alt="">
+                <p class="data temperature">+20</p>
+            </div>
+            <div class="weather-box">
+                <p class="data">31.08</p>
+                <img src="weather-snow.jpg" alt="">
+                <p class="data temperature">-3</p>
+            </div>
+            <div class="weather-box">
+                <p class="data">31.08</p>
+                <img src="weather-blizzard.jpg" alt="">
+                <p class="data temperature">-10</p>
+            </div>
+        </div>
+    </body>
+</html>
