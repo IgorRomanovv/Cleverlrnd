@@ -1,0 +1,67 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.header{
+    display: flex;
+    height: 200px;
+    background-color: rgb(3, 59, 38);
+    justify-content: flex-end;
+    align-items: center;
+}
+#logo{
+    display: flex;
+    flex: 0px 0px 150px;
+    width: 150px;
+    height: 150px;
+    background-color: rgb(255, 130, 13);
+    margin: 20px;
+    justify-content: center;
+}
+.nav{
+    display: flex;
+    height: 70px;
+    background-color: rgb(13, 0, 100);
+    justify-content: center;
+    align-items: center;
+}
+.top-menu{
+    display: flex;
+    color: rgb(255, 255, 255);
+}
+.menu{
+    display: flex;
+    height: 100px;
+}
+article{
+    display: flex;
+    flex: 1 0 100px;
+    background-color: teal;
+    margin: 5px;
+    justify-content: center;
+}
+.left-panel, .right-panel, main{
+    display: flex;
+    justify-content: center;
+    margin: 5px;
+}
+.left-panel, .right-panel{
+    background-color: rgb(133, 16, 133);
+    flex: 1 0 100px;
+    color: rgb(255, 255, 255);
+}
+main{
+    flex: 3 0 100px;
+}
+.futer{
+    display: flex;
+    height: 150px;
+    justify-content: center;
+    background-color: rgb(0, 59, 59);
+    flex: 1 0 300px;
+    margin-top: 10px;
+}
+.infofuter{
+    color: rgb(255, 255, 255);
+    margin-top: 20px;
+}
