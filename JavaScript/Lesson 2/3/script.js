@@ -1,0 +1,28 @@
+"use strict"
+let test1;
+let test2;
+let test3;
+let test4;
+let test5;
+let test6;
+let test7;
+let test8;
+let test9;
+test1=12.5;
+test2=245;
+test3="Hello";
+test4=undefined;
+test5=null;
+test6=true;
+test7=[1,5,7,12,3,'значение'];
+test8={'Вася':'Имя'};
+test9=function() {};
+alert(typeof test1);
+alert(typeof test2);
+alert(typeof test3);
+alert(typeof test4);
+alert(typeof test5);
+alert(typeof test6);
+alert(typeof test7);
+alert(typeof test8);
+alert(typeof test9);

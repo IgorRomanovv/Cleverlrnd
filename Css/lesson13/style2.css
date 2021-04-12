@@ -17,8 +17,8 @@ body {
     min-height: 100vh;
     margin: 0 auto;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
     grid-gap: 10px;
     }
     .one{
@@ -37,7 +37,6 @@ body {
     }
     .three{
         grid-column-start: 1;
-        grid-column-end: 2;
         grid-row-start: 2;
         grid-row-end: 4;
         background-color: rgb(106, 213, 240);

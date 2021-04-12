@@ -45,8 +45,7 @@ img:nth-child(9){
 }
 img:hover{
     box-shadow: 15px 15px 20px rgba(0, 0, 0, 0.6);
-    transform: rotate(360deg);
-    transform: scale(1.5, 1.5);
+    transform: rotate(360deg) scale(1.5, 1.5);
     transition: all 0.4s ease-in 0s;
     z-index:10;
 }
