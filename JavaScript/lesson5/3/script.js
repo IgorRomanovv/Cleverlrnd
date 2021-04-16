@@ -5,7 +5,7 @@ while (true) {
 
   if (!value) break; // (Не будет введено или нажата отмена цикл сбросится)
 
-  sum = sum + value;
+  sum += value;
 
-}
+};
 alert( 'Сумма: ' + sum );

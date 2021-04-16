@@ -1,5 +1,5 @@
 "use strict"
-let x=+prompt("Выберете число в диапазоне от 1 до 5");
+let x = +prompt("Выберете число в диапазоне от 1 до 5");
 switch(x){
     case(1):
         alert("Плохо");
@@ -18,4 +18,4 @@ switch(x){
         break;
     default:
         alert("Неверное значение")
-}
+};

@@ -1,8 +1,8 @@
 "use strict"
 function circleCan(){
-    let L = 2 * π * R;
-    alert(L);
+    const l = 2 * π * r;
+    alert(l);
 }
-let R = +prompt("Введите радиус");
+let r = +prompt("Введите радиус");
 const π = 3.14;
 circleCan();

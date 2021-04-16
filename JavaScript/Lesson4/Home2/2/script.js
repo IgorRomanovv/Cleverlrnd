@@ -1,5 +1,5 @@
 "use strict"
-let x=+prompt("Напиши число от 0 до 9")
+let x = +prompt("Напиши число от 0 до 9")
 switch(x){
     case(0):
         alert("Ноль");
@@ -33,4 +33,4 @@ switch(x){
         break;
     default:
         alert("Ты ввел неверное значение");          
-}
+};
